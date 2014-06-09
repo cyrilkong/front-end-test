@@ -1,0 +1,55 @@
+$primary: #eb0028
+$black: #10181f
+$lightestminor: #ecebea
+
+.style-c
+    position: relative
+    
+.bottom-things
+    background-color: $lightestminor
+    .title-red
+        color: $primary
+    .title
+        color: $black
+    h3
+        margin: 0 0 1em 0
+        padding: 0
+        line-height: 1.231
+        font-weight: 500
+    .description
+        display: block
+        position: relative
+        overflow: hidden
+        padding: 10px
+        height: 1.2*2em
+        text-overflow: ellipsis
+        p
+            margin: 0
+            padding: 0
+            font-size: 0.75em
+            display: block
+            color: #000
+            line-height: 1.2
+    .price
+        @extend .description
+        padding-top: 0
+        display: block
+        font-weight: 900
+        color: #000
+        line-height: 2.0
+    .accessories-box
+        overflow: hidden
+        height: 260px
+        > .pic
+            overflow: hidden
+        > .box
+            display: block
+            overflow: hidden
+            background-color: #fff
+            &:hover
+                text-decoration: none
+    .more-u-box
+        overflow: hidden
+        
+            
+    
